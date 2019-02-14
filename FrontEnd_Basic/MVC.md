@@ -81,6 +81,17 @@ MVC는 Model, View, Controller의 약자로 애플리케이션을 세가지의 �
 
 <br>
 
-## 5. 참고 페이지
+## 5. WEB과 MVC 
+> 1. 사용자가 웹사이트에 접속한다.(Uses)
+> 2. Controller는 사용자가 요청한 웹페이지를 서비스 하기 위해서 Model을 호출한다.(Mainpulates)
+> 3. Model은 데이터베이스나 파일과 같은 데이터 소스를 제어한 후에 그 결과를 리턴한다. 
+> 4. Controller는 Model이 리턴한 결과를 View에 반영한다.(Updates)
+> 5. 데이터가 반영된 View는 사용자에게 보여진다. 
+
+<br>
+
+## 6. 참고 페이지
 > https://m.blog.naver.com/jhc9639/220967034588<br>
-> https://jayzzz.tistory.com/40
+> https://jayzzz.tistory.com/40<br>
+> https://opentutorials.org/course/697/3828<br>
+> MVVM 참고자료 https://blog.outsider.ne.kr/672
