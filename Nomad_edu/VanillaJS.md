@@ -14,12 +14,12 @@
 - 속도!!
 
 \-DOM에서 element id를 셀렉트 하는 속도 비교 
-<img src = ../img/VanillaJS1.png>
+![](../img/VanillaJs1.png)
 
 <br>
 
 \- DOM에서 tagname을 셀렉트 하는 속도 비교 
-<img src = ../img/VanillaJS2.png>
+![](../img/VanillaJs2.png)
 
 #### 단점 
 - 코드가 길어진다. 
@@ -39,3 +39,8 @@
 
 2. 위 장점에서도 언급했듯이 Vanilla JS는 속도에 대한 퍼포먼스를 빼놓을 수 없다. <br>
    만약 내가 개발해야 할 웹어플리케이션 혹은 웹어플리케이션 내의 기능적인 측면에서의 개발과정 중 속도에 대해 고려를 해야 한다면 VanillaJS 사용에 대한 고려를 빼놓을 수는 없을 것 같다. <br>
+
+<br>
+
+## 4. 참고 사이트 
+https://d2.naver.com/helloworld/7229119           
