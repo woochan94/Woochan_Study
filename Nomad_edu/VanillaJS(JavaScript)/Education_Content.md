@@ -1,4 +1,4 @@
-## HTML에서 JavaScript 코드가 body 맨 밑에 넣는 이유 
+## 1. HTML에서 JavaScript 코드가 body 맨 밑에 넣는 이유 
 
 - 웹 브라우저가 HTML 문서를 해석(Parsing) 할 때 \<script> 태그를 만나면 그 안에 있는 JavaScript 의 처리가 끝날 때 까지 다른 HTML의 해석을 멈추기 때문에 사용자 입장에서 HTML 페이지가 화면에 다 그려지기까지 더 오래 걸리게 된다.
 
@@ -16,7 +16,7 @@
 
 <br>
 
-# var, let, const
+# 2. var, let, const
 
 - var는 function-scoped이고, let, const는 block-scoped 이다. 
 
@@ -127,3 +127,9 @@
       }
 
       console.log(age); // 전역스코프에 선언된 age는 오염되지 않고 여전히 1의 값 유지 
+
+<br>
+
+# 3. 참고 사이트 
+https://blog.hanumoka.net/2018/09/21/javascript-20180921-javascript-var-let-const/
+https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d

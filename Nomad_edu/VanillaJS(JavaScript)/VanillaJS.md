@@ -14,12 +14,12 @@
 - 속도!!
 
 \-DOM에서 element id를 셀렉트 하는 속도 비교 
-![](../img/VanillaJs1.png)
+![](../../img/VanillaJs1.png)
 
 <br>
 
 \- DOM에서 tagname을 셀렉트 하는 속도 비교 
-![](../img/VanillaJs2.png)
+![](../../img/VanillaJs2.png)
 
 #### 단점 
 - 코드가 길어진다. 
