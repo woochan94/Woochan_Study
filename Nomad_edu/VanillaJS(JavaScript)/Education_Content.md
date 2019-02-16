@@ -130,6 +130,35 @@
 
 <br>
 
-# 3. 참고 사이트 
+# 3. classList
+
+> -  javascript에서 class를 제어할 수 있는 방법 중 하나 
+> -  add, remove, contains, toggle 함수를 제어 
+>    - add : 특정 클래스 값을 추가한다. 만약 요소의 속성에 추가하려는 클래스가 존재한다면 무시된다. 
+>    - remove : 특정 클래스 값을 제거한다. 
+>    - toggle : 한개의 인수만 있을 때 : 클래스 값을 변환한다. 즉 클래스가 존재한다면 지우고 false를 반환하고, 존재하지 않다면 그것을 추가하고 true를 반환한다. <br>두번째 인수가 있을 때: 두번째 인수가 true로 평가되면 특정 클래스 값을 추가하고 false로 평가되면 지운다. 
+>    - contains : 특정 클래스 값이 요소의 클래스 속성에 존재하는지 확인한다. 
+
+<br>
+
+     function handleClick() {
+       const hasClass = title.classList.contains(CLICKED_CLASS);
+       if(hasClass) {
+         title.classList.remove(CLICKED_CLASS);
+        } else {
+         title.classList.add(CLICKED_CLASS);
+        }
+     }
+
+위의 코드를 toggle을 이용해 간단히 나타낼 수 있다.
+<br>
+
+    function handleClick() {
+       title.classList.toggle(CLICKED_CLASS);
+    }
+
+<br>
+
+# 4. 참고 사이트 
 https://blog.hanumoka.net/2018/09/21/javascript-20180921-javascript-var-let-const/
 https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d
