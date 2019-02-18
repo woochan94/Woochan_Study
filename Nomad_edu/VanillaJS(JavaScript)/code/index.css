@@ -4,29 +4,110 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: calc( 80vh - 16px );
+    height: calc( 90vh - 16px );
 
     font-family: 'Rubik', 'Nanum Gothic', sans-serif; color: #2f3542;
 }
 
-h1 {
+/* Clock */
+.js-clock >h1 {
     margin: 0;
     font-size: 7em;
     color : #34495e;
     transition: color 0.5s ease-in-out;
 }
 
-.clicked {
-    color : #7f8c8d;
-}
-
-.form {
+/* Greeting */
+.js-greetings,
+.hiding {
     display: none;
 }
 
 .showing { 
     display: block;
 }
+
+.js-greetingForm > input {
+    margin: 1.33em 0;
+}
+
+.js-greetings {
+    font-weight: 500;
+}
+
+/* toDo */
+.js-greetingForm > input,
+.js-toDoForm > input {
+    width: 22em;
+    padding: 0.8em;
+    font-size: 1em;
+    font-family: 'Rubik', sans-serif; color: #2f3542;
+    text-align: center;
+    border: none; outline: none;
+    border-bottom: 1px solid #5e5e5e;
+    background-color: transparent;
+}
+
+.js-greetingForm > input:focus,
+.js-toDoForm > input:focus {            
+    border-bottom: 1px solid #222;
+    transition: all 1s linear;
+}
+
+.js-toDoContainer {
+    width: 23em; 
+    max-height: 22vh;
+    margin-top: 3em;
+    overflow-y: auto;
+}
+
+.js-toDoList {
+    all: unset; 
+    display: block;   
+    width: 18em; 
+    margin: 0 auto;
+    word-break: break-all;
+}
+
+.js-toDoList > li {
+    position: relative;
+    padding: 0.2em 0;
+    word-break: break-word;
+}
+
+.js-toDoList button {
+    all: unset;
+    cursor: pointer;
+    position: absolute; right: -1.8em;
+    font-size: 0.8em;
+}
+
+.js-toDoContainer::-webkit-scrollbar {
+    width: 2px;
+}
+
+.js-toDoContainer::-webkit-scrollbar-track {
+    background: #d7d7d7; 
+}
+.js-toDoContainer::-webkit-scrollbar-thumb {
+    background: #222; 
+}
+.js-toDoContainer::-webkit-scrollbar-thumb:hover {
+    background: #79FFE1; 
+}
+
+/* Weather */
+.js-weather {
+    position: absolute;
+    bottom: 6em;
+    font-family: 'Rubik', 'Nanum Gothic', sans-serif; color: #2f3542;
+}
+
+
+.clicked {
+    color : #7f8c8d;
+}
+
 
 @keyframes fadeIn {
     from {

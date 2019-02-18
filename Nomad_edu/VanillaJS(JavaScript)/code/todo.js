@@ -54,6 +54,11 @@ function handleSubmit(event) {
 
 function loadToDos() {
     const loadedToDos = localStorage.getItem(TODOS_LS);
+    const currentUser = localStorage.getItem(USER_LS);
+
+    if(currentUser === null) {
+        toDoForm.classList.add(HIDING_CN);
+    }
     if(loadedToDos !== null) {
         const parsedToDos = JSON.parse(loadedToDos);
         parsedToDos.forEach(function(toDo) {
