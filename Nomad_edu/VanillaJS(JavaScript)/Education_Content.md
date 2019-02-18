@@ -159,6 +159,26 @@
 
 <br>
 
-# 4. 참고 사이트 
+# 4. setInterval()
+
+일정 시간마다 반복 실행하는 함수 
+
+### 사용방법 
+- setInterval()  사용
+> setInterval ( function(){ ... }, 지연시간 );
+
+      playAlert = setInterval ( function() {
+            alert('3초 마다 실행됩니다.');
+      }, 3000);
+
+- clearInterval() <br>
+> clearInterval을 사용하여 setInterval의 수행작업을 중지시킬 수 있다. 
+
+
+      clearInterval(playAlert);
+
+<br>
+
+# 5. 참고 사이트 
 https://blog.hanumoka.net/2018/09/21/javascript-20180921-javascript-var-let-const/
 https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d

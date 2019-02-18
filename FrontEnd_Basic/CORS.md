@@ -18,7 +18,7 @@
 > 교차 원본 요청 차단 : 동일 출처 정책으로 인해 [요청한 도메인]에 있는 원격 자원을 읽을 수 없습니다. 자원을 같은 도메인으로 이동시키거나 CORS를 활성하여 해결할 수 있습니다. 
 
 
-※ 외부로 요청이 안되는 것은 자바스크립트 엔진 표준 스펙에 동일 출처 정책(same-orogin policy) 이라는 보안 규칙이 있기 때문이다. 
+※ 외부로 요청이 안되는 것은 자바스크립트 엔진 표준 스펙에 동일 출처 정책(same-orign policy) 이라는 보안 규칙이 있기 때문이다. 
 
 <br>
 
@@ -32,7 +32,7 @@
 
 ![](../img/SameOrigin_Policy.PNG)
 
-이 정책이 초기에는 웹사이트의 보안을 위한 좋은 방법으로 생각되었으나 요즘은 열러 도메인에 걸쳐서 구성되는 대규모 웹 프로젝트가 늘어나고, REST API 등을 이용한 외부 호출이 많아지는 상황에서는 거추장스러운 기술이 되기도 한다. <br>
+이 정책이 초기에는 웹사이트의 보안을 위한 좋은 방법으로 생각되었으나 요즘은 여러 도메인에 걸쳐서 구성되는 대규모 웹 프로젝트가 늘어나고, REST API 등을 이용한 외부 호출이 많아지는 상황에서는 거추장스러운 기술이 되기도 한다. <br>
 그래서 만들어진 추가 정책이 CORS이다. 이 정책의 특징은 서버에서 외부 요청을 허용할 경우 ajax요청이 가능해지는 방식이다. 
 
 <br>
@@ -64,10 +64,12 @@
 - preflight 요청을 받기 위해 OPTIONS 메서드의 요청을 받아서 컨트롤해야 한다. 
 - 모든 요청의 응답에 아래 header를 추가한다.
 
-> Access-Control-Allow-Origin : * <br>
-> Access-Control-Allow-Methods : GET, POST, PUT, DELETE, OPTIONS <br>
-> Access-Control-Max-Age : 3600 <br>
-> Access-Control-Allow-Headers : Origin, Accept, X-Requested-With, Content-Type, Accesss-Control-Request-Method, Access-Control-Request-Headers, Authorization 
+       Access-Control-Allow-Origin : * 
+       Access-Control-Allow-Methods : GET, POST, PUT, DELETE, OPTIONS 
+       Access-Control-Max-Age : 3600
+       Access-Control-Allow-Headers : Origin, Accept, X-Requested-With, 
+                                      Content-Type, Accesss-Control-Request-Method, 
+                                      Access-Control-Request-Headers, Authorization 
 
 웹 브라우저의 스크립트 엔진에서 preflight 요청 응답으로 Access-Control-Allow-Origin header에 "*" 값이 있으면 모든 도메인에서의 요청을 허용하는 것으로 판단한다.
 
