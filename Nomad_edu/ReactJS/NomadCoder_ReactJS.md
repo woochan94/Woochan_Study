@@ -29,3 +29,18 @@
 
 #### 설치 완료
 ![](../../img/react_install_cmp.png)
+
+### Create-React-App 
+
+    npx create-react-app my-app 
+    cd my-app 
+    npm start 
+
+이전에는 'npm install -g create-react-app' 과 같이 글로벌하게 설치했었는데, 글로벌하게 설치했을 경우 몇가지 문제가 발생한다. <br>
+
+1. 모듈 업데이트를 까먹는다는 것. 
+2. 사용없이 글로벌하게 설치해서 용량을 잡아먹는다는 것 
+
+- npx 
+  - npm 패키지들을 컴퓨터 저장없이 사용할 수 있게 해줌
+  - npm 버전 5 이상이라면 이미 npx는 설치되어 있음 
