@@ -179,6 +179,44 @@
 
 <br>
 
-# 5. 참고 사이트 
-https://blog.hanumoka.net/2018/09/21/javascript-20180921-javascript-var-let-const/
-https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d
+# 5. Web Storage
+
+> 웹 스토리지란 클라이언트쪽에 소량의 데이터를 저장해 두기 위한 스토리지 
+
+### 쿠키 
+
+> - 4KB의 저장 용량 → 크기가 작다.
+> - 같은 사이트내에서 둘 이상의 탭을 열었을 때, 둘 이상의 트랜잭션 추적에 어려움이 있다. 
+
+### 웹 스토리지 
+
+> - JavaScript 객체를 저장할 수 있다. (정확히는 객체의 복사본이 저장된다.)
+> - Session Storage와 Local Storage가 있다. 
+
+<br>
+
+## Web Storage
+
+![](../../img/webstorage.png)
+
+### Session Storage 
+> - 도메인마다 따로 생성된다. 
+> - 윈도우와 같은 유효범위와 생존기간을 가진다. 
+> - 새로 생성된 윈도우와 기존 윈도우의 세션 스토리지는 서로 영향을 주지 않는다. 
+
+### Local Storage 
+> - 도메인마다 따로 생성된다. 
+> - 지속기간에 제한이 없다. → 사용자가 명시적으로 지우지 않는 한 영구적으로 저장됨 
+> - 도메인이 다르면 서로의 로컬 스토리지에 접근할 수 없다. 
+> - 같은 도메인에 소속된 웹페이지는 모두 같은 로컬 스토리지를 가진다. 
+> - Cookie를 이용한 사이트 고유 설정 정보등을 대신하기에 적당하다. 
+
+Session과 Local의 차이점은 로컬은 지속성을 가지기 때문에 여러 창을 켜도 같은 도메인이라면, 같은 스토리지를 사용하는 것이다. <br>
+세션 스토리지는 각 세션마다 새로운 스토리지를 사용하고 폐기한다. 
+
+<br>
+
+# 6. 참고 사이트 
+1. https://blog.hanumoka.net/2018/09/21/javascript-20180921-javascript-var-let-const/
+2. https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d <br>
+3. https://croute.me/419
