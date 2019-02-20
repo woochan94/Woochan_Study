@@ -42,7 +42,8 @@ Webpack이 프로젝트 내 모든 자바스크립트의 의존성을 분석한 
 2. module을 로딩 
 3. module로 만들어진 파일을 웹브라우저에서 사용 가능하도록 컴파일 한다. (bundling)<br> 이때, module을 웹브라우저에서 사용할 수 있도록 컴파일하는 역할을 webpack이 함. 
 
-![](../img/webpack2.png)
+![](../img/webpack2.png)<br>
+
 < webpack 컴파일 과정 >
 
 <br>
