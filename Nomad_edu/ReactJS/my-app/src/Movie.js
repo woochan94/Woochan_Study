@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import './Movie.css';
-import testimg from './img/testimg.jpg';
 
 class Movie extends Component {
     render() {
+        console.log(this.props);
         return (
             <div>
-                <MoviePoster></MoviePoster>
-                <h1>hello this is a movie</h1>
+                <MoviePoster poster={this.props.poster}/>
+                <h1>{this.props.title}</h1>
             </div>
-        );
+        )
     }
 }
 
 class MoviePoster extends Component {
     render() {
         return (
-            <img src = {testimg} alt={testimg}></img>
-        )
+           <img src={this.props.poster} alt={this.props.poster}/>
+        );
     }
 }
 
