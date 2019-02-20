@@ -36,7 +36,7 @@
     cd my-app 
     npm start 
 
-이전에는 'npm install -g create-react-app' 과 같이 글로벌하게 설치했었는데, 글로벌하게 설치했을 경우 몇가지 문제가 발생한다. <br>
+이전에는 ```npm install -g create-react-app``` 과 같이 글로벌하게 설치했었는데, 글로벌하게 설치했을 경우 몇가지 문제가 발생한다. <br>
 
 1. 모듈 업데이트를 까먹는다는 것. 
 2. 사용없이 글로벌하게 설치해서 용량을 잡아먹는다는 것 
