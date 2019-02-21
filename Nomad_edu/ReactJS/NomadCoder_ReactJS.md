@@ -39,6 +39,7 @@ ReactDOM.render(
 ### if/else 문
 
 > JSX 안에서 사용되는 JavaScript 표현에는 If-Else문이 사용 불가하다. <br>
+> → 함수 생성과 객체 생성의 프로그래밍 편의성을 이유로 ([React 공식 페이지 참고](https://react-cn.github.io/react/tips/if-else-in-JSX.html))
 > - 이에 대한 대안은 삼항 연산자 
 
 <br>
@@ -57,9 +58,28 @@ ReactDOM.render(
 
  리액트를 사용해서 웹사이트에 올려놓고 싶을 때 reactDOM을 사용함 
 
- # 4. props
+ # 4. props, state 
+
+ ### props 
 
 > - 부모 컴포넌트로부터 전달받는 속성
 > - 컴포넌트 내부에서 값을 변경할 수 없다. 
 
- # 5. state
+ # 5. React Component Life Cycle
+
+ ![](../../img/LifeCycle.png)
+
+ <span style = "color : red"><u>*리액트 17부터는 componenetWillMount, componentWillUpdate, componenetWillReceiveProps 라이프 사이클이 deprecated 됩니다.*</u> </span>
+
+Render : render() → ComponentDidMount() <br>
+Update : shouldComponentUpdate() → render() → componentDidUpdate()
+
+### Mount 
+
+> Component가 처음 실행 될 때 그것을 Mount라고 표현한다. 컴포넌트가 시작되면 우선 context, defaultProps와 state를 저장한다. <br>
+> 그 후에 componentWillMount 메소드를 호출한다. 그리고 render로 Component를 DOM에 부착한 후 Mount가 완료된 후 componentDidMount가 호출된다. 
+> - componentWillMount에서는 props나 state를 바꾸면 안된다. <br>
+> → Mount 중이기 때문에 
+> - componentDidMount에서는 DOM에 접근할 수 있다. <br>
+> → 주로 AJAX 요청을 하거나 setTimeout, setInterval 같은 행동을 함 
+
