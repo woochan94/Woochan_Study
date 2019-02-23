@@ -36,6 +36,15 @@ ReactDOM.render(
 ```
 <br>
 
+### JSX 사용법 
+```
+import React, { Component } from 'react'; 
+```
+이처럼 React를 import 해주어야 JSX문법을 사용할 수 있다. <br>
+그리고 이렇게 import 하는 것은 우리가 webpack을 사용하기에 가능한 작업인데, 위와 같이 import하게되면 나중에 프로젝트를 빌드하게 됐을 때 webpack에서 파일 확장자에 따라 다른 작업을 하게 된다. 
+
+<br>
+
 ### if/else 문
 
 > JSX 안에서 사용되는 JavaScript 표현에는 If-Else문이 사용 불가하다. <br>
