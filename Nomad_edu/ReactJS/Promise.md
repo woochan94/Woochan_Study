@@ -112,6 +112,10 @@ if (조건문) {
 }
 ```
 
+### async/await 
+
+Callback 함수에 비해 Promise의 코드가 훨씬 간결해졌지만, 이 코드조차도 지전분 하다고 생각되면 [async/await](Async,Await.md) 를 사용할 수 있다. 
+
 
 <br>
 

@@ -7869,6 +7869,11 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
   integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
 
+react-lines-ellipsis@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/react-lines-ellipsis/-/react-lines-ellipsis-0.14.0.tgz#954459e68d8f9fc5a40498cabc5f47d63cbefd21"
+  integrity sha512-zJf+evlugAQ42zwHYbsR/P9SSx2UrT4opWwY8JXPNIZTVVxjqTt2+91Csx3ya0xSesj7E/EgfUbtDfU03uylXQ==
+
 react-scripts@2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.5.tgz#0740507db0a06d518c231caa1ef4e908bd8ebce5"
