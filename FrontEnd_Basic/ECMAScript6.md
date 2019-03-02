@@ -30,6 +30,7 @@ let iterable = {
 ```
 
 ### 2.2 이터레이터 규약과 에터레이터 객체 
+
 > 이터레이터 규약은 이터러블 규약과 마찬가지로 값이 열거 되지만, next 메서드를 통해서 하나씩 순차적으로 열거되어야 하는 규약이다. <br>
 > 이 때 열거되는 값의 형태는 객체이며 속성으로 value와 done을 갖는다. done은 열거의 끝임을 알려주는데, 열거가 끝인 경우 true를 전달한다. 
 
@@ -40,4 +41,24 @@ let iterable = {
  iterator.next(); // {value:2, done:false}
  iterator.next(); // {value:3, done:false}
  iterator.next(); // {value:undefined, done:true}
+```
+
+<br>
+
+## 3. for...of 문 
+
+> for...of 문은 기존에 배열이나 함수의 arguments 객체와 같은 컬렉션을 순회하는 for...in문이나 forEach()함수와 같은 역할을 한다. 뿐만 아니라 문자열을 한 글자씩 잘라 순회하거나 destructing 등이 가능해졌다. 
+
+- for...of문 작성법 
+```
+for (variables of iterable) {
+    ...
+}
+``` 
+```
+let str = 'for of문'; 
+
+for (let value of str) {
+    console.log(value);  // 결과값 : f, o, r, , o, f, 문
+}
 ```
