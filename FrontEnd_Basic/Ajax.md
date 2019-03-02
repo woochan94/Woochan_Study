@@ -57,7 +57,7 @@ xhr.onreadystatechange = function (e) {
 ```
 <b>onreadystatechange</b>가 요청에 대한 응답을 받는 이벤트 리스너이다. <br><br>
  Ajax 요청시 xhr 객체는 각 상태별로 readyState가 바뀐다. 처음에는 readyState가 0(xhr.UNSENT, 보내지 않음) 이었다가, open 메소드를 호출하는 순간 1(xhr.OPENED)로 바뀐다. 그리고 send시 순차적으로 2(xhr.HEADERS_RECEIVED), 3(xhr.LOADING), 4(xhr.DONE) 으로 바뀐다. <br>
- readyState가 바뀔 때마다 onreadyStatechange에 설정해 두었던 콜백함수가 호출된다. 최종적으로 readyState가 4가 되었을 때 요청이 완려된것이기 때문에 xhr.status로 HTTP 상태 코드를 확인한다. 
+ readyState가 바뀔 때마다 onreadyStatechange에 설정해 두었던 콜백함수가 호출된다. 최종적으로 readyState가 4가 되었을 때 요청이 완료된것이기 때문에 xhr.status로 HTTP 상태 코드를 확인한다. 
 
  <br>
 
