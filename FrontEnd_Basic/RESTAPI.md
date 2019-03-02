@@ -114,3 +114,23 @@ POST /members/2         (o)
 4. 밑줄 ( _ ) 은 URI에 사용하지 않는다. 
 5. URI 경로에는 소문자가 적합하다. 
 6. 파일확장자는 URI에 포함하지 않는다. 
+
+<br>
+
+## 4. RESTful이란? 
+
+### 4.1 RESTful 정의 
+> - RESTful은 일반적으로 REST라는 아키텍처를 구현하는 웹 서비스를 나타내기 위해 사용되는 용어이다. 
+
+### 4.2 RESTful의 목적 
+> - 이해하기 쉽고 사용하기 쉬운 REST API를 만드는 것 
+
+### 4.3 RESTful 하지 못한 경우
+> - ex ) CRUD 기능을 모두 POST로만 처리하는 API  
+
+
+<br>
+
+## 5. 참고 사이트 
+1. https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
+2. https://meetup.toast.com/posts/92
