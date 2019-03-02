@@ -64,6 +64,19 @@
 6. Uniform Interface (인터페이스 일관성) 
     - URI로 지정한 Resource에 대한 조작을 통일되고 한정적인 인터페이스로 수행한다. 
     - HTTP 표준 프로토콜에 따르는 모든 플랫폼에서 사용이 가능하다. 
+    - 제약 조건 
+      - identification of resources : 리소스가 URI로 식별되면 된다.
+      - manipulation of resources through representations : respresentation 전송을 통해서 resource를 조작해야 한다. 
+      - <b>self-descriptive message</b> : 메시지는 스스로를 설명해야 한다. 
+      ```
+        GET /HTTP/1.1 // 이 HTTP 요청 메시지는 목적지가 빠져 있어서 self-descriptive 하지 못하다. 
+      ```
+      목적지를 추가해야 self-descriptive해 진다. 
+      ```
+      GET /HTTP/1.1
+      HOST : www.example.org
+      ```
+
 
 <br>
 
@@ -134,3 +147,4 @@ POST /members/2         (o)
 ## 5. 참고 사이트 
 1. https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html
 2. https://meetup.toast.com/posts/92
+3. https://www.youtube.com/watch?v=RP_f5dMoHFc
