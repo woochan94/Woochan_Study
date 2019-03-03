@@ -62,3 +62,46 @@ for (let value of str) {
     console.log(value);  // 결과값 : f, o, r, , o, f, 문
 }
 ```
+
+## 4. Spread operator 
+
+> Spread 구문을 사용하면 배열이나 문자열과 같이 반복 가능한 문자를 0개 이상의 인수 또는 요소로 확장하여, 0개 이상의 키-값의 쌍으로 객체를 확장시킬 수 있다. 
+
+- apply 대체 <br>
+
+일반적으로 배열의 엘리먼트를 함수의 인수로 사용하고자 할 때 Function.prototype.apply를 사용하였다. 
+```
+function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction.apply(null, args);
+```
+Spread 문법을 사용해 위 코드를 다음과 같이 작성 할 수 있다. 
+```
+function myFunction(x, y, z) { }
+var args = [0, 1, 2];
+myFunction(...args);
+```
+
+- 배열을 이어 붙이는 더 나은 방법 
+
+Array.concat 은 배열을 존재하는 배열의 끝에 이어붙이는데 종종 사용된다. 
+```
+var arr1 = [0, 1, 2];
+var arr2 = [3, 4, 5];
+// arr2 의 모든 항목을 arr1 에 붙임
+arr1 = arr1.concat(arr2);
+```
+Spread 문법을 사용해 다음과 같이 작성할 수 있다. 
+```
+var arr1 = [0, 1, 2];
+var arr2 = [3, 4, 5];
+arr1 = [...arr1, ...arr2];
+```
+
+- 이터러블 전용 
+
+Spread 문법(spread 프로퍼티인 경우 제외) 은 iterable 객체에만 적용된다. 
+```
+var obj = {'key1': 'value1'};
+var array = [...obj]; // TypeError: obj is not iterable
+```
