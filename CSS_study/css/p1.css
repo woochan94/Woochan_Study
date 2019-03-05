@@ -1,0 +1,32 @@
+h1, p {
+    margin: 0;
+}
+
+body {
+    font-size : 2em;
+} 
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: 0;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem; /*root em : 16px*/
+    padding: 5%;
+}
+
+.item-a {
+    width: 30%;
+    background: yellow;
+}
+
+.item-b {
+    width: 50%;
+    background: yellowgreen;
+}
