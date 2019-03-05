@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MediaQuery</title>
+    <style>
+        /* 중단점 - 480px, 600px, 768px, 960px, 1024px, 1280px*/
+
+        /* 화면의 너비가 1280 이상일 때 */
+        body { background-color: #ab47bc;}
+        
+        /* 화면의 너비가 1025부터 1280 까지는 아래 코드 실행*/
+        @media (max-width: 1280px){
+            body { background-color: #42a5f5;}
+        }
+
+        /* 화면의 너비가 0부터 1240 까지는 아래 코드 실행*/
+        @media (max-width: 1024px){
+            body { background-color: #00897b;}
+        }
+    </style>
+</head>
+<body>
+    <h1>MediaQuery</h1>
+</body>
+</html>
