@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout3</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #wrap {
+            width: 960px; 
+            height: 800px;
+            margin: 0 auto;
+        }
+        #box1 {
+            width: 100%;
+            height: 50%;
+            background-color: pink;
+        }
+        #box2 {
+            width: 50%;
+            height: 50%;
+            float: left;
+            background-color: blue;
+        }
+        #box3 {
+            width: 50%;
+            height: 50%;
+            float: left;
+            background-color: yellow;
+        }
+
+        @media (max-width: 960px) {
+            #wrap {width: 90%;}
+        }
+
+        @media (max-width: 768px) {
+            #wrap {width: 100%;}
+        }
+        
+        @media (max-width: 480px) {
+            #wrap {width: 100%;}
+            #box2 {
+                width: 100%;
+                float: none;
+            }
+
+            #box3 {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>
