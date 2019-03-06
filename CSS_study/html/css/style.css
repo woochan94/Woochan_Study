@@ -1,0 +1,41 @@
+/* 레이아웃 */
+
+#header {
+    background: url(../img/header_bg.jpg) repeat-x center top;
+}
+
+/* 컨테이너 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+.header {
+    height: 327px;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu a {
+    display: inline-block;
+    color: #fff;
+    padding: 8px 0 6px 10px;
+    transition: color .3s ease;
+}
+
+.header_menu a:hover {
+    color: #ccc;
+}
+
+/* mediaquery */
+@media (max-width : 1200px) {
+    .container {
+        width: 100%;
+    }
+    .row {
+        padding: 0 15px;
+    }
+}
