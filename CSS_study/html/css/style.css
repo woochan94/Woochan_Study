@@ -1,20 +1,46 @@
 /* 레이아웃 */
 
-#header {
-    background: url(../img/header_bg.jpg) repeat-x center top;
+#header { background: url(../img/header_bg.jpg) repeat-x center top; }
+
+#nav { background-color: #f6fdff; }
+
+#title { background-color: #eaf7fd; }
+
+#contents { }
+
+#content_left { 
+    float: left; 
+    width: 250px; 
+ }
+
+#content_center { 
+    overflow: hidden;
+    min-height: 1000px;
+    margin-right: 250px; 
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
+} 
+
+#content_right { 
+    position: absolute;
+    right: 0;
+    top: 0; 
+    width: 250px; 
 }
 
-#nav {
-    background-color: #f6fdff;
+#contents .container {
+    border-right: 1px solid #dbdbdb;
+    border-left: 1px solid #dbdbdb;
 }
 
-#title {
-    background-color: #eaf7fd;
-}
+#footer {
+    border-top: 1px solid #dbdbdb;
+ }
 
 
 /* 컨테이너 */
 .container {
+    position: relative;
     width: 1200px;
     margin: 0 auto;
 }
@@ -189,13 +215,62 @@
     padding: 5px 0;
 }
 
+/* 컨텐츠 */
+.column { padding: 15px; border-bottom: 1px solid #dbdbdb; }
+.column.col1 { }
+.column.col2 { }
+.column.col3 { border-bottom: 0; }
+.column.col4 { }
+.column.col5 { }
+.column.col6 { border-bottom: 0; }
+.column.col7 {  }
+.column.col8 { }
+.column.col9 { border-bottom: 0; }
+
+
 
 /* mediaquery */
-@media (max-width : 1200px) {
-    .container {
-        width: 100%;
+
+/*화면 너비 0 ~ 1220 */
+@media (max-width : 1220px) {
+    .container { width: 100%; }
+    .row { padding: 0 15px; }
+    #contents .container { border: 0; }
+}
+
+/*화면 너비 0 ~ 1024 */
+@media (max-width : 1024px) {
+
+}
+
+/*화면 너비 0 ~ 960 */
+@media (max-width : 960px) {
+    .nav div { float: none; width: 100%; }
+    .nav div:last-child { width: 100%;}
+    .nav div li { width: 33.33333%; }
+    .nav div:last-child li { width: 33.33333%; }
+    .nav div ol { margin-bottom: 10px; }
+    #content_right {
+        position: static;
+        width: 100%; 
+        border-top: 1px solid #dbdbdb;
     }
-    .row {
-        padding: 0 15px;
-    }
+    #content_center { margin-right: 0; border-right: 0;}
+}
+
+/*화면 너비 0 ~ 781 */
+@media (max-width : 781px) {
+    .header_title h1 { font-size: 35px; }
+    #content_left {float: none; width: 100%;}
+    #content_center { margin-right: 0; border-left: 0; }
+}
+
+@media (max-width : 591px) {
+    .header_title { margin-top: 60px;}
+    .nav div li { width: 50%; }
+    .nav div:last-child li { width: 50%; }
+}
+/*화면 너비 0 ~ 480 */
+@media (max-width : 480px) {
+
 }
