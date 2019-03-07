@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
     <meta name="author" content="woochan">
     <meta name="description" content="반응형 웹사이트 만들어보기">
     <title>Responsive Site</title>
@@ -165,23 +167,48 @@
                                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
                                 <li><a href="#">이 줄은 한 줄 효과입니다. 이 줄은 한 줄 효과입니다.</a></li>
                             </ul>
-                            <a href="#" class="more" title="더 보기">More <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                            <a href="#" class="more" title="더 보기">More <i class="fa fa-plus-circle"
+                                    aria-hidden="true"></i></a>
                         </div>
                         <!-- 게시판2 -->
                         <div class="notice2 mt15">
                             <h5>Notice2</h5>
-                                <ul>
-                                    <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
-                                    <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
-                                    <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
-                                    <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
-                                </ul>
-                                <a href="#" class="more" title="더 보기">More <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                            </div>
+                            <ul>
+                                <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                                <li><a href="#">이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다. 이 줄은 두 줄 효과입니다.</a></li>
+                            </ul>
+                            <a href="#" class="more" title="더 보기">More <i class="fa fa-plus-circle"
+                                    aria-hidden="true"></i></a>
+                        </div>
                     </article>
                     <article class="column col3">
-                        <h4 class="col_title">Title</h4>
-                        <p class="col_description">이 곳은 설명 부분입니다.</p>
+                        <h4 class="col_title">Blog</h4>
+                        <p class="col_description">해상도에 따라 이미지를 다르게 표현하는 방법입니다.</p>
+                        <!-- Blog1 -->
+                        <div class="blog1">
+                            <h5 class="ir_su">image1</h5>
+                            <figure>
+                                <a href="#">
+                                    <!-- <img src="img/blog1_@1.jpg" class="img_normal" alt="normal image">
+                                                        <img src="img/blog1_@2.jpg" class="img_retina" alt="retina image" width="100%"> -->
+                                    <img src="img/blog3_@1.jpg" srcset="img/blog3_@1.jpg 1x, img/blog3_@2.jpg 2x"
+                                        alt="normal image">
+                                    <figcaption>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트
+                                        이미지
+                                        글입니다. 반응형 웹 사이트 이미지 글입니다.</figcaption>
+                                </a>
+                            </figure>
+                        </div>
+
+                        <!-- Blog2 -->
+                        <div class="blog2 mt15">
+                            <div class="img_retina">
+                                <h5>Image2</h5>
+                            </div>
+                            <p>반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.</p>
+                        </div>
                     </article>
                 </section>
                 <section id="content_center">
