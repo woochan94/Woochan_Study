@@ -217,6 +217,8 @@
 
 /* 컨텐츠 */
 .column { padding: 15px; border-bottom: 1px solid #dbdbdb; }
+.column .col_title { font-size: 20px; color: #2f7fa6; padding-bottom: 5px; }
+.column .col_description { border-bottom: 1px dashed #dbdbdb; padding-bottom: 15px; margin-bottom: 15px; color: #878787; line-height: 18px; }
 .column.col1 { }
 .column.col2 { }
 .column.col3 { border-bottom: 0; }
@@ -227,6 +229,28 @@
 .column.col8 { }
 .column.col9 { border-bottom: 0; }
 
+/* 메뉴 */
+.menu { }
+
+.menu li { position: relative;}
+
+.menu li a { 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    color: #878787; 
+    border-bottom: 1px solid #dbdbdb;
+    padding: 10px;
+    display: block; 
+    transition: box-shadow 0.34s ease, background 0.34s ease;                         
+}
+
+.menu li a i { position: absolute; right: 10px; top: 15px; }
+
+.menu li a:hover {
+    box-shadow: inset 180px 0 0 0 rgba(36, 130, 174, 0.7);
+    color: #fff;
+    background-color: rgba(36, 130, 174, 0.9);
+}
 
 
 /* mediaquery */
