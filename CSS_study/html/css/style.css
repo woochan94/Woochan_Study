@@ -438,6 +438,36 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     cursor: pointer;
 }
 
+/* 라이트 박스 */
+.square a { position: relative; overflow:hidden; float: left; width: 19%; margin: 0.5%; }
+.square a img { width: 100%; display: block; }
+.square a em { 
+    background: rgba(0,0,0,0.77); 
+    color: #fff; 
+    width: 100%; 
+    text-align: center; 
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    opacity: 1;
+    transition: all .3s ease; 
+}
+.square a:hover em { 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.57);
+}
+.square a:nth-child(1):hover img {filter: blur(2px);}
+.square a:nth-child(2):hover img {filter: brightness(50%);}
+.square a:nth-child(3):hover img {filter: contrast(10%);}
+.square a:nth-child(4):hover img {filter: grayscale(100%);}
+.square a:nth-child(5):hover img {filter: hue-rotate(120deg);}
+.square a:nth-child(6):hover img {filter: invert(100%);}
+.square a:nth-child(7):hover img {filter: opacity(10%);}
+.square a:nth-child(8):hover img {filter: saturate(10%);}
+.square a:nth-child(9):hover img {filter: sepia(120%);}
+.square a:nth-child(10):hover img {filter: sepia(120%) hue-rotate(120deg);}
+
+
 /* mediaquery */
 
 /*화면 너비 0 ~ 1220 */
@@ -445,11 +475,15 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     .container { width: 100%; }
     .row { padding: 0 15px; }
     #contents .container { border: 0; }
+
+    .square a { width: 24%; }
+    .square a:nth-child(5n) { display: none;}
 }
 
 /*화면 너비 0 ~ 1024 */
 @media (max-width : 1024px) {
-
+    .square a { width: 32.3333%; }
+    .square a:nth-child(5) { display: block; }
 }
 
 /*화면 너비 0 ~ 960 */
@@ -483,6 +517,8 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
         color: #fff;
         background-color: rgba(36, 130, 174, 0.9);
     }
+    .square a { width: 49%; }
+    .square a:nth-child(5) { display: none; }
 }
 
 @media (max-width : 591px) {
@@ -503,7 +539,6 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     }
     .column.col1 .menu li:nth-child(3n) { border-right: 0; }
     .column.col1 .menu li a { text-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
-
 }
 /*화면 너비 0 ~ 480 */
 @media (max-width : 480px) {

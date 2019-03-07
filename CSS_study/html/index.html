@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/lightgallery.css">
 
     <!-- favicon -->
     <link rel="shortcut icon" href="icon/favicon.ico">
@@ -245,6 +246,19 @@
                     <article class="column col5">
                         <h4 class="col_title">Blend Effect</h4>
                         <p class="col_description">Background-blend-mode와 mix-blend-mode 효과 이미지 입니다.</p>
+                        <!-- lightbox -->
+                        <div class="lightbox square clearfix">
+                                <a href="img/light01_s.jpg"><img src="img/light01.jpg" alt="이미지"><em>blur</em></a>
+                                <a href="img/light02_s.jpg"><img src="img/light02.jpg" alt="이미지"><em>brightness</em></a>
+                                <a href="img/light03_s.jpg"><img src="img/light03.jpg" alt="이미지"><em>contrast</em></a>
+                                <a href="img/light04_s.jpg"><img src="img/light04.jpg" alt="이미지"><em>grayscale</em></a>
+                                <a href="img/light05_s.jpg"><img src="img/light05.jpg" alt="이미지"><em>hur-rotate</em></a>
+                                <a href="img/light06_s.jpg"><img src="img/light06.jpg" alt="이미지"><em>invert</em></a>
+                                <a href="img/light07_s.jpg"><img src="img/light07.jpg" alt="이미지"><em>opacity</em></a>
+                                <a href="img/light08_s.jpg"><img src="img/light08.jpg" alt="이미지"><em>saturate</em></a>
+                                <a href="img/light09_s.jpg"><img src="img/light09.jpg" alt="이미지"><em>sepia</em></a>
+                                <a href="img/light10_s.jpg"><img src="img/light10.jpg" alt="이미지"><em>mix</em></a>
+                            </div>
                     </article>
                     <article class="column col6">
                         <h4 class="col_title">Title</h4>
@@ -280,7 +294,14 @@
     <script src="js/jquery.min_1.12.4.js"></script>
     <script src="js/modernizr-custom.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
     <script>
+        // 라이트 박스
+        $(".lightbox").lightGallery({
+            
+        }); 
+
+
         //이미지 슬라이더
         $(".slider").slick({
             dots: true,
