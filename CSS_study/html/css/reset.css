@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;}
 button { border: 0; }
 
 /* 반응형 이미지 */
-img { width: 100%; }
+img, video { width: 100%; }
 
 /* clearfix */
 .clearfix:before, .clearfix:after { display: block; content: ''; line-height: 0; }
