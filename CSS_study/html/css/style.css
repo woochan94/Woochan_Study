@@ -287,12 +287,34 @@
     .header_title h1 { font-size: 35px; }
     #content_left {float: none; width: 100%;}
     #content_center { margin-right: 0; border-left: 0; }
+    .menu li a {
+        transition: box-shadow 0.15s ease, background 0.15s ease;   
+    }
+    .menu li a:hover {
+        box-shadow: inset 630px 0 0 0 rgba(36, 130, 174, 0.7);
+        color: #fff;
+        background-color: rgba(36, 130, 174, 0.9);
+    } 
 }
 
 @media (max-width : 591px) {
     .header_title { margin-top: 60px;}
     .nav div li { width: 50%; }
     .nav div:last-child li { width: 50%; }
+
+    .column.col1 .col_title { display: none; }
+    .column.col1 .col_description { display: none; }
+    .column.col1 { border-bottom: 0; padding: 0; }
+    .column.col1 .menu ul { overflow: hidden; }
+    .column.col1 .menu li { 
+        float: left; 
+        width: 33.3333%; 
+        text-align: center; 
+        border-right: 1px solid #dbdbdb;
+        box-sizing: border-box;
+    }
+    .column.col1 .menu li:nth-child(3n) { border-right: 0; }
+    .column.col1 .menu li a { text-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
 }
 /*화면 너비 0 ~ 480 */
 @media (max-width : 480px) {
