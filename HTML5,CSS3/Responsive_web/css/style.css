@@ -471,6 +471,14 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
 .video { position: relative; width: 100%; padding-bottom: 56.25%; }
 .video iframe { position: absolute; width: 100%; height: 100%; }
 
+/* 푸터 */
+.footer { text-align: center; padding: 30px 50px; }
+.footer li { position: relative; display: inline; padding: 0 7px 0 10px; white-space: nowrap;}
+.footer li::before { content:''; width: 1px; height: 12px; background-color: #dbdbdb; position: absolute; left: 0; top: 2px;}
+.footer li:first-child:before { width: 0; }
+.footer address { padding-top: 15px; }
+
+
 
 /* mediaquery */
 
