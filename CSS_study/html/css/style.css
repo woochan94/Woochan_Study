@@ -506,6 +506,12 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     .slider figcation { padding: 10px; }
     .slider figcation em { font-size: 18px; }
     .slider figcation span { font-size: 14px; }
+
+    #content_right { overflow: hidden; }
+    #content_right .column { float: left; width: 33.3333%; box-sizing: border-box; }
+    #content_right .column.col7 { border-right: 1px solid #dbdbdb; border-bottom: 0; }
+    #content_right .column.col8 { border-right: 1px solid #dbdbdb; border-bottom: 0; }
+
 }
 
 /*화면 너비 0 ~ 781 */
@@ -523,6 +529,9 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     }
     .square a { width: 49%; }
     .square a:nth-child(5) { display: none; }
+    
+    #content_right .column { width: 50%; }
+    #content_right .column.col9 { display: none; }
 }
 
 @media (max-width : 591px) {
@@ -543,6 +552,7 @@ body { background: url(../img/header_bg.jpg) repeat-x center top; }
     }
     .column.col1 .menu li:nth-child(3n) { border-right: 0; }
     .column.col1 .menu li a { text-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
+
 }
 /*화면 너비 0 ~ 480 */
 @media (max-width : 480px) {
