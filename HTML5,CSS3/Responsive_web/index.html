@@ -279,20 +279,32 @@
                         <p class="col_description">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
                         <!-- side1 -->
                         <div class="side1">
-                            <figure>
-                                <img src="img/side1.jpg" alt="이미지1">
-                            </figure>
-                        </div>
+                                <figure class="front">
+                                    <img src="img/side1.jpg" alt="이미지2">
+                                </figure>
+                                <div class="back">
+                                    <i class="fa fa-heart fa-4x" aria-hidden="true"></i>
+                                </div>
+                            </div>
                     </article>
                     <article class="column col8">
                             <h4 class="col_title">Effect2</h4>
                             <p class="col_description">CSS의 transform을 이용한 마우스 오버효과입니다.</p>
                             <!-- side2 -->
                             <div class="side2">
-                                <figure>
-                                    <img src="img/side2.jpg" alt="이미지2">
-                                </figure>
-                            </div>
+                                    <figure class="front">
+                                        <img src="img/side2.jpg" alt="이미지2">
+                                        <figcaption>
+                                            <h3>Hover Effect</h3>
+                                        </figcaption>
+                                    </figure >
+                                    <figure class="back">
+                                        <img src="img/side4.jpg" alt="이미지2">
+                                        <figcaption>
+                                            <h3>Hover Effect</h3>
+                                        </figcaption>
+                                    </figure>
+                                </div>
                     </article>
                     <article class="column col9">
                             <h4 class="col_title">Effect3</h4>
@@ -301,6 +313,9 @@
                             <div class="side3">
                                 <figure>
                                     <img src="img/side3.jpg" alt="이미지3">
+                                    <figcaption>
+                                        <h3>Hover<em>Effect</em></h3>
+                                    </figcaption>
                                 </figure>
                             </div>
                     </article>
@@ -340,7 +355,7 @@
     <script>
         // 라이트 박스
         $(".lightbox").lightGallery({
-            
+
         }); 
 
 
