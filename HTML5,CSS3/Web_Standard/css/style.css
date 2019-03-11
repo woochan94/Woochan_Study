@@ -6,7 +6,7 @@
 
 /* 레이아웃 */
 #wrap { width: 100%; }
-#header { width: 100%; height: 325px; background-color: #111; }
+#header { width: 100%; height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
 #contents { width: 100%; height: 800px; background-color: #222; }
 #footer { width: 100%; height: 200px; background-color: #333;}
 
@@ -18,3 +18,31 @@
 
 /* 레이아웃 */
 .container { width: 990px; height: inherit; margin: 0 auto;  background: rgba(255,255,255,0.3); }
+
+/* 헤더 */
+.header { }
+.header-menu { text-align: right; }
+.header-menu a { padding: 10px 0px 10px 13px; display: inline-block; color: #fff; }
+.header-menu a:hover { color: #666; }
+.header-tit { text-align: center; }
+.header-tit h1 { 
+    text-transform: uppercase; 
+    color: #fff; 
+    padding: 5px 20px 6px 20px;  
+    background-color: #4aa8d4; 
+    display: inline-block; 
+    font-weight: normal; 
+    margin-top: 40px;    
+    font-size: 28px;
+}
+.header-tit a { display: inline-block; background-color: #2698cb; font-size: 18px; color:#fff; padding: 5px 20px 6px 20px; margin-top: -5px; }
+.header-icon { text-align: center; margin-top: 30px; }
+.header-icon a { display: inline-block; width: 60px; height: 60px; border-radius: 50%; background: url(../img/icon.png); margin: 0 3px;}
+.header-icon a.icon1 { background-position: 0 0; }
+.header-icon a.icon2 { background-position: 0 -60px; }
+.header-icon a.icon3 { background-position: 0 -120px; }
+.header-icon a.icon4 { background-position: 0 -180px; }
+.header-icon a.icon1:hover { background-position: -60px 0; }
+.header-icon a.icon2:hover { background-position: -60px -60px; }
+.header-icon a.icon3:hover { background-position: -60px -120px; }
+.header-icon a.icon4:hover { background-position: -60px -180px; }
