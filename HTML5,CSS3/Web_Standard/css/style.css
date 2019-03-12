@@ -17,7 +17,7 @@
 #cont_cont { background-color: #f6fdff;  }
 
 /* 레이아웃 */
-.container { width: 990px; height: inherit; margin: 0 auto;  background: rgba(255,255,255,0.3); }
+.container { width: 990px; height: inherit; margin: 0 auto; }
 
 /* 헤더 */
 .header { }
@@ -176,3 +176,30 @@
 .tab_menu ul li.active { background: #2c94c4; }
 .tab_menu ul li.active a { color: #fff; }
 .tab_menu ul li.active ul li a { color: #333 }
+
+
+.notice5 { margin-top: 15px; border: 1px solid #ccc; position: relative;}
+.notice5 h4{ font-size: 14px; font-weight: bold; color: #0093bd; padding: 8px 10px; border-bottom: 1px solid #ccc; }
+.notice5 h4 em { color: #cf3292; }
+.notice5 ul { padding: 10px; }
+.notice5 ul li { overflow: hidden; background: url(../img/dot.gif) no-repeat 0 8px; padding-left: 8px; padding-bottom: 2px;}
+.notice5 ul li a { float: left; width: 70%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.notice5 ul li span { float: right; width: 30%; text-align: right; }
+.notice5 .more { position: absolute; top: 9px; right: 9px; }
+
+/* 갤러리 */
+.gallery { position: relative; border: 1px solid #ccc; height: 254px; overflow: hidden; }
+.gallery h4 { font-size: 14px; font-weight: bold; color: #0093bd; padding: 8px 10px; border-bottom: 1px solid #ccc; }
+.gallery_btn { position: absolute; right: 5px; top: 7px; }
+.gallery_btn ul { overflow: hidden; }
+.gallery_btn li { float: left; margin: 1px 2px; }
+.gallery_btn li a { display: block; width: 23px; height: 23px; background: url(../img/icon.png) no-repeat;  }
+.gallery .gallery_btn li.gb_icon1 a {background-position: -150px -120px}
+.gallery .gallery_btn li.gb_icon2 a {background-position: -150px -143px}
+.gallery .gallery_btn li.gb_icon3 a {background-position: -150px -166px}
+.gallery .gallery_btn li.gb_icon4 a {background-position: -150px -189px}
+.gallery .gallery_btn li.gb_icon1 a:hover {background-position: -173px -120px}
+.gallery .gallery_btn li.gb_icon2 a:hover {background-position: -173px -143px}
+.gallery .gallery_btn li.gb_icon3 a:hover {background-position: -173px -166px}
+.gallery .gallery_btn li.gb_icon4 a:hover {background-position: -173px -189px}
+.gallery .gallery_img img {width: 100%;}
