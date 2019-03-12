@@ -111,3 +111,27 @@
 .cont .col4 .ico_img:hover { background-position: -60px -420px; }
 .cont .col5 .ico_img:hover { background-position: -60px -480px; }
 .cont .col6 .ico_img:hover { background-position: -60px -540px; }
+
+/* 게시판 */
+.notice { position: relative; }
+.notice h4 { font-size: 14px; color: #0093bd; font-weight: bold; padding-bottom: 3px; }
+.notice ul { }
+.notice ul li { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; background: url(../img/dot.gif) no-repeat 0 9px; padding-left: 10px; }
+.notice ul li a {font-size: 12px;}
+.notice a.more { display: block; position: absolute; right: 0; top: 0; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px; }
+
+.notice2 { position: relative; margin-top: 20px; }
+.notice2 h4 { font-size: 14px; color: #0093bd; font-weight: bold; padding-bottom: 3px; }
+.notice2 ul { }
+.notice2 ul li { overflow: hidden; background: url(../img/dot.gif) no-repeat 0 9px; padding-left: 10px;  }
+.notice2 ul li a { float: left; font-size: 12px; width: 70%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; } 
+.notice2 ul li span { float: right; text-align: right; width: 30%; }
+.notice2 a.more { display: block; position: absolute; right: 0; top: 0; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px; }
+
+.notice3 { position: relative; }
+.notice3 h4 { font-size: 14px; color: #0093bd; font-weight: bold; padding-bottom: 3px;}
+.notice3 li { position: relative; padding: 8px 0 14px 60px; }
+.notice3 img { width: 50px; position: absolute; left: 0; top: 0; border: 1px solid #0093bd; }
+.notice3 a strong { display: block; }
+.notice3 a span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px; }
+.notice3 a.more { display: block; position: absolute; right: 0; top: 0; background: url(../img/icon.png) no-repeat -150px -90px; width: 17px; height: 17px;}
