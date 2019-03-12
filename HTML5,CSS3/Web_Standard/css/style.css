@@ -203,3 +203,18 @@
 .gallery .gallery_btn li.gb_icon3 a:hover {background-position: -173px -166px}
 .gallery .gallery_btn li.gb_icon4 a:hover {background-position: -173px -189px}
 .gallery .gallery_img img {width: 100%;}
+
+/* 로그인 */
+#login_form { background: #f2f4f5; padding: 15px; }
+.login_header { overflow: hidden; font-size: 12px; height: 30px; }
+.login_header .lh_check { float: left; padding-right: 15px; }
+.login_header .lh_check .input_check { vertical-align: -2px;}
+.login_header .lh_ip { float: left; }
+.login_header .lh_ip em { color: #0093bd; text-decoration: underline; }
+.login_content { position: relative; }
+.login_content .lc_text { }
+.login_content .input_text { width: 180px; height: 16px; padding: 2px 5px; border: 1px solid #bebebe; margin-bottom: 3px; background: #fff; }
+.lc_btn { position: absolute; right: 0; top: 0; width: 62px; height: 47px; background: #fff; border: 1px solid #bebebe;}
+.login_footer { margin-top: 5px; }
+.login_footer li { display: inline; }
+.login_footer li a { font-size: 12px;}
