@@ -156,3 +156,23 @@
 .notice4_1 li a span em { visibility: hidden; position: absolute; left: 0; bottom: 0; background: rgba(0, 0, 0, 0.7); color: #fff; width: 100%; }
 .notice4_1 li a strong { display: inline-block; padding-top: 3px; }
 .notice4_1 li a span:hover em { visibility: visible; }
+
+
+/* 콘텐츠 요소를 보이지 않게 하는 방법 
+1. display:none; (영역이 사라짐)
+2. visibility: hidden; (영역 유지)
+3. opacity : 0;  
+4. width: 0; height: 0; overflow: hidden;
+*/
+
+/* 탭 메뉴 */
+.tab_menu { position: relative; border: 1px solid #ccc; padding: 8px; height: 105px; }
+.tab_menu ul { overflow: hidden; border-bottom: 1px solid #ccc; }
+.tab_menu ul li { float: left; border: 1px solid #ccc; margin-right: -1px; margin-bottom: -1px;}
+.tab_menu ul li a { padding: 5px 10px; display: block; }
+.tab_menu ul li ul { position: absolute; left: 0; top: 48px; width: 270px; border: 0; }
+.tab_menu ul li ul li { float: none; border: 0; background: url(../img/dot.gif) no-repeat 9px 8px; padding-left: 18px;  }
+.tab_menu ul li ul li a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 100%; padding: 0 0 3px 0; }
+.tab_menu ul li.active { background: #2c94c4; }
+.tab_menu ul li.active a { color: #fff; }
+.tab_menu ul li.active ul li a { color: #333 }
