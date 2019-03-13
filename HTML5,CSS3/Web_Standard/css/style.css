@@ -205,7 +205,7 @@
 .gallery .gallery_img img {width: 100%;}
 
 /* 로그인 */
-#login_form { background: #f2f4f5; padding: 15px; }
+#login-wrap { background: #f2f4f5; padding: 15px; margin-bottom: 15px; }
 .login_header { overflow: hidden; font-size: 12px; height: 30px; }
 .login_header .lh_check { float: left; padding-right: 15px; }
 .login_header .lh_check .input_check { vertical-align: -2px;}
@@ -217,4 +217,12 @@
 .lc_btn { position: absolute; right: 0; top: 0; width: 62px; height: 47px; background: #fff; border: 1px solid #bebebe;}
 .login_footer { margin-top: 5px; }
 .login_footer li { display: inline; }
-.login_footer li a { font-size: 12px;}
+.login_footer li a { font-size: 12px;} 
+
+/* 팝업 */
+.popup { }
+.popup h4 { font-size: 14px; color: #0093bd; font-weight: bold; padding-bottom: 3px; }
+.popup ul { overflow: hidden; }
+.popup li { float: left; width: 93px; margin-right: 5px; }
+.popup li:last-child { margin-right: 0;}
+.popup li img { width: 100%; }
