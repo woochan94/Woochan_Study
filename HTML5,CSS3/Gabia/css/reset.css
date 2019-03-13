@@ -1,0 +1,7 @@
+/* 여백 초기화 */
+body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button{margin:0; padding:0;} 
+
+/* ir효과 */
+.ir {width: 0; height: 0; font-size: 0; line-height: 0; position: absolute; left: 0; top: 0; overflow: hidden; }
+
+

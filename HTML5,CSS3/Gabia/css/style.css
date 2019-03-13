@@ -1,1 +1,17 @@
-/*3333*/
+#wrap { }
+#header { height: 89px; background-color: #ffcdd2; }
+#banner { height: 550px; background-color: #ef9a9a; }
+#sbanner { height: 228px; background-color: #e57373; }
+#select { height: 489px; background-color: #ef5350; }
+#infor { height: 515px; background-color: #f44336; }
+#ad { height: 451px; background-color: #e53935; }
+#blog { height: 1000px; background-color: #d32f2f; }
+#site { height: 500px; background-color: #b71c1c; }
+#footer { height: 300px; background-color: #ff8a80; }
+
+/* container */
+.container { width: 1180px; height: inherit; background-color:rgba(0,0,0,0.5); margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
+
+
+
+
