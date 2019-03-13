@@ -8,7 +8,7 @@
 #wrap { }
 #header {  height: 325px; background: url(../img/header_bg.jpg) center top repeat-x;}
 #contents { }
-#footer { height: 200px; background-color: #333;}
+#footer { border-top: 1px solid #eee; }
 
 /* 컨텐츠 레이아웃 */
 #cont_nav { background-color:#f9fdff; }
@@ -226,3 +226,9 @@
 .popup li { float: left; width: 93px; margin-right: 5px; }
 .popup li:last-child { margin-right: 0;}
 .popup li img { width: 100%; }
+
+/* 푸터 */
+.footer { padding: 25px 0; text-align: center; } 
+.footer ul { margin-bottom: 20px; }
+.footer li { display: inline; padding: 0 7px 0 10px; border-right: 1px solid #ccc; }
+.footer li:last-child { border-right: 0;}

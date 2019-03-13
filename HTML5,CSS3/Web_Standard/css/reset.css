@@ -12,7 +12,7 @@ body, input, textarea, select, button, table {
     color: #222; font-size: 13px; line-height: 1.5;}
 
 /* 폰트 스타일 초기화 */
-em {font-style: normal;}
+em, address {font-style: normal;}
 
 /* 블릿기호 초기화 */
 dl,ul,li,ol,menu {list-style:none;}  
