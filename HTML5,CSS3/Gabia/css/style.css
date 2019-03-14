@@ -2,7 +2,7 @@
 #header { height: 89px; border-bottom: 1px solid #efefef; }
 #banner { height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; border-bottom: 1px solid #efefef; }
 #sbanner { }
-#select { height: 489px; background-color: #ef5350; }
+#select { background-color: #1d7abd; }
 #infor { height: 515px; background-color: #f44336; }
 #ad { height: 451px; background-color: #e53935; }
 #blog { height: 1000px; background-color: #d32f2f; }
@@ -40,3 +40,13 @@
 .sbanner > div h4 i { padding-left: 8px;}
 .sbanner > div h4:hover { text-decoration: underline; }
 .sbanner > div p { font-size: 16px; color: #676767; }
+
+/* select */
+.select { overflow: hidden; padding: 70px 0; }
+.select h3 { float: left; font-size: 40px; width: 25%; color: #fff;}
+.select > div { float: left; width: 17.5%; background-color: #2886ca; margin-left: 1.5%; padding: 3%; height: 300px;}
+.select > div.simg1 { background: #2886ca url(../img/select-bg1.png) no-repeat 30px 210px; background-size: 90px; }
+.select > div.simg2 { background: #2886ca url(../img/select-bg2.png) no-repeat 30px 220px; background-size: 90px; }
+.select > div.simg3 { background: #2886ca url(../img/select-bg3.png) no-repeat 30px 230px; background-size: 90px; }
+.select > div h4 { font-size: 18px; color: #fff; padding-bottom: 20px; } 
+.select > div p { font-size: 15px; color: #d2f0ff; }
