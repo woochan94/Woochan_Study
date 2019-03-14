@@ -6,7 +6,7 @@
 #infor { }
 #ad { position: relative;  background: url(../img/ad_bg.jpg) no-repeat center top; background-size: cover; z-index: 1; } 
 #ad::before { content: ''; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); position: absolute; top: 0; left: 0; }
-#blog { height: 1000px; background-color: #d32f2f; }
+#blog { }
 #site { height: 500px; background-color: #b71c1c; }
 #footer { height: 300px; background-color: #ff8a80; }
 
@@ -71,3 +71,16 @@
 .ad p { font-size: 16px; color: #fff; }
 .ad .view { font-size: 16px; padding: 12px 42px; margin-top: 50px; color: #fff; display: inline-block; border: 1px solid #fff; transition: all .3s ease; }
 .ad .view:hover { background: #fff; color: #000;}
+
+/* blog */
+.blog { padding: 70px 0; } 
+.blog h3 { font-size: 34px; margin-bottom: 50px; }
+.blog .blog-wrap { margin-bottom: 80px; overflow: hidden; }
+.blog .blog-wrap > div { float: left; width: 23.5%; margin-right: 2%; box-sizing: border-box; border-top: 2px solid #6f6f6f; }
+.blog .blog-wrap > div:last-child { margin-right: 0;}
+.blog .blog-wrap > div h4 { font-size: 22px; padding: 25px 0 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.blog .blog-wrap > div p { font-size: 16px; color: #7e7e7e; margin-bottom: 40px; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; }
+.blog .blog-wrap > div figure img { width: 100%; }
+.blog .notice-wrap { height: 257px; background-color: #555; }
+.blog .notice-wrap .nw-left { }
+.blog .notice-wrap .nw-right { }

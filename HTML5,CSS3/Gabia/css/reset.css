@@ -1,7 +1,7 @@
 @import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
 
 /* 여백 초기화 */
-body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button{margin:0; padding:0;} 
+body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,select,button,figure{margin:0; padding:0;} 
 
 /* 폰트 초기화 */
 body,input,textarea,select,button,table{
