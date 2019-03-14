@@ -6,7 +6,10 @@ body,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,textarea,p,sel
 /* 폰트 초기화 */
 body,input,textarea,select,button,table{
 	font-family: 'NanumSquare', '맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif; 
-	font-size: 12px; line-height: 1.5;}
+    font-size: 12px; line-height: 1.5;}
+    
+/* 폰트 스타일 초기화 */
+em, address { font-style: normal; }
 
 /* list-style 초기화 */
 ul,li,ol {list-style: none;}
