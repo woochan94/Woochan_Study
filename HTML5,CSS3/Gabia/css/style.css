@@ -1,5 +1,5 @@
 #wrap { }
-#header { height: 89px; background-color: #ffcdd2; }
+#header { height: 89px; border-bottom: 1px solid #efefef; }
 #banner { height: 550px; background-color: #ef9a9a; }
 #sbanner { height: 228px; background-color: #e57373; }
 #select { height: 489px; background-color: #ef5350; }
@@ -10,8 +10,17 @@
 #footer { height: 300px; background-color: #ff8a80; }
 
 /* container */
-.container { width: 1180px; height: inherit; background-color:rgba(0,0,0,0.5); margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
+.container { width: 1180px; height: inherit;  margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
 
-
-
-
+/* header */
+.header { overflow: hidden; }
+.header h1 { float: left; padding-top: 24px; padding-right: 30px; }
+.header .gnb { float: left; }
+.header .gnb li { display: inline; }
+.header .gnb li a { font-size: 18px; padding: 32px 12px; display: inline-block; }
+.header .quick { float: right; }
+.header .quick li { display: inline; position: relative; }
+.header .quick li a { display: inline-block; font-size: 14px; padding: 34px 11px 34px 8px; color: #676767; }
+.header .quick li::before { content: ''; width: 1px; height: 10px; background: #ccc; position: absolute; right: 0; top: 1px; }
+.header .quick li:last-child::before { width: 0; height: 0;}
+.header a:hover { color: #1d7abd; }
