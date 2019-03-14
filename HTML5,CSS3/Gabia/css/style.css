@@ -1,7 +1,7 @@
 #wrap { }
 #header { height: 89px; border-bottom: 1px solid #efefef; }
-#banner { height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; }
-#sbanner { height: 228px; background-color: #e57373; }
+#banner { height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; border-bottom: 1px solid #efefef; }
+#sbanner { }
 #select { height: 489px; background-color: #ef5350; }
 #infor { height: 515px; background-color: #f44336; }
 #ad { height: 451px; background-color: #e53935; }
@@ -33,4 +33,10 @@
 .banner .view { display: inline-block; font-size: 16px; margin-top: 50px; border: 1px solid #333; padding: 12px 42px; background-color: #fff; transition: all .3s ease;}
 .banner .view:hover { background-color: #000; color: #fff;}
 
-
+/* sbanner */
+.sbanner { overflow: hidden; padding: 70px 0;  }
+.sbanner > div { float: left; width: 25%; }
+.sbanner > div h4 { font-size: 24px; padding-bottom: 4px; }
+.sbanner > div h4 i { padding-left: 8px;}
+.sbanner > div h4:hover { text-decoration: underline; }
+.sbanner > div p { font-size: 16px; color: #676767; }
