@@ -7,7 +7,7 @@
 #ad { position: relative;  background: url(../img/ad_bg.jpg) no-repeat center top; background-size: cover; z-index: 1; } 
 #ad::before { content: ''; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); position: absolute; top: 0; left: 0; }
 #blog { }
-#site { height: 500px; background-color: #b71c1c; }
+#site { background-color: #f8f9fa;}
 #footer { height: 300px; background-color: #ff8a80; }
 
 /* container */
@@ -94,3 +94,13 @@
 .blog .notice-wrap .nw-right ul { border-top: 2px solid #6f6f6f; padding: 20px; border-bottom: 1px solid #e5e5e5; height: 145px; }
 .blog .notice-wrap .nw-right li { padding: 12px 0; font-size: 16px; color: #666; }
 .blog .notice-wrap .nw-right li span { background-color: #666; color: #fff; padding: 5px 10px; margin-right: 20px; }
+
+/* site */
+.site { overflow: hidden; padding: 70px 0; }
+.site > div { float: left; width: 16.6%; }
+.site > div.two { width: 33.2%; }
+.site > div.two ul { overflow: hidden;}
+.site > div.two li { float: left; width: 50%; }
+.site > div h4 { font-size: 16px; font-weight: bold; padding-bottom: 20px; } 
+.site > div li { padding-bottom: 5px; }
+.site > div li a { font-size: 15px; color: #666; }
