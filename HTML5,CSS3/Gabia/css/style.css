@@ -65,6 +65,27 @@
 .infor .info-box .in-right { float: left; width: 50%; padding-left: 50px; box-sizing: border-box; }
 .infor .info-box .in-right li { font-size: 16px; color: #666; }
 
+
+/* infor2 */
+.infor2 { padding: 70px 0; text-align: center; }
+.infor2 h3 { font-size: 40px; padding-bottom: 20px; font-weight: 300; }
+.infor2 .infor-btn { display: inline-block; font-size: 16px; border: 1px solid #333; margin-bottom: 50px; padding: 12px 42px; background-color: #fff; transition: all .3s ease; }
+.infor2 .infor-btn:hover { background-color: #000; color: #fff;}
+.infor2 .infor-box { overflow: hidden; text-align: left; padding: 0 150px; }
+.infor2 .infor-box .in-left { overflow: hidden; float: left; width: 50%; }
+.infor2 .infor-box .in-left h4 { float: left; width: 110px; height: 80px; border-radius: 50%; background-color: #1d7abd; color: #fff; font-size: 16px; text-align: center; padding-top: 30px; }
+.infor2 .infor-box .in-left ul { float: left; padding: 25px 0 0 20px; }
+.infor2 .infor-box .in-left li { padding-bottom: 10px; font-size: 16px; }
+.infor2 .infor-box .in-left li em { width: 160px; display: inline-block; }
+.infor2 .infor-box .in-left li strong { color: #1d7abd; }
+.infor2 .infor-box .in-right { float: left; width: 50%; }
+.infor2 .infor-box .in-right h4 { float: left; width: 110px; height: 90px; border-radius: 50%; background-color: #1d7abd; color: #fff; font-size: 16px; text-align: center; padding-top: 20px; }
+.infor2 .infor-box .in-right ul { float: left; padding: 25px 0 0 20px; }
+.infor2 .infor-box .in-right li { padding-bottom: 10px; font-size: 16px; }
+.infor2 .infor-box .in-right li em { width: 90px; display: inline-block; }
+.infor2 .infor-box .in-right li strong { color: #1d7abd; }
+
+
 /* ad */
 .ad { padding: 70px 0; text-align: center; z-index: 10; position: relative; } /*z-index를 사용하기 위해서는 position이 있어야 한다. */
 .ad h3 { font-size: 40px; padding-bottom: 20px; color: #fff; }
@@ -130,6 +151,7 @@
 #sub-banner { background: url(../img/server-bg1.png) repeat-x top center; }
 #product-table { }
 #select2 { background-color: #1d7abd; }
+#infor2 { }
 #select5 { background-color: #1d7abd; }
 
 /* sub-banner */
