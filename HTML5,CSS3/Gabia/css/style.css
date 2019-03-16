@@ -130,6 +130,7 @@
 #sub-banner { background: url(../img/server-bg1.png) repeat-x top center; }
 #product-table { }
 #select2 { background-color: #1d7abd; }
+#select5 { background-color: #1d7abd; }
 
 /* sub-banner */
 .sub-banner { padding: 80px 0; overflow: hidden; }
@@ -186,3 +187,15 @@
 .select2 > div.simg2 {  background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; }
 .select2 > div h4 { font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px; } 
 .select2 > div p { font-size: 15px; color: #fff; }
+
+/* select5 */
+.select5 { overflow: hidden; padding: 70px 0; }
+.select5 h3 { float: left; width: 32.333%;; font-size: 40px; color: #fff; margin-right: 1.5%; }
+.select5 > div { float: left; width: 26.333%; background-color: #2886ca; margin-right: 1.5%; padding: 3%; height: 300px; margin-bottom: 1.5%; }
+.select5 > div.simg1 {  background: #2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 90px;  }
+.select5 > div.simg2 {  background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0%; }
+.select5 > div.simg3 {  background: #2886ca url(../img/select-bg3.png) no-repeat 30px 30px; background-size: 90px;  }
+.select5 > div.simg4 {  background: #2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 90px; }
+.select5 > div.simg5 {  background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; margin-right: 0%; }
+.select5 > div h4 { font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px; } 
+.select5 > div p { font-size: 15px; color: #fff; }
