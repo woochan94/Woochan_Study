@@ -13,6 +13,11 @@
 /* container */
 .container { width: 1180px; height: inherit;  margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
 
+/* skip */
+.skip { position: relative; }
+.skip a { position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444; background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
+.skip a:focus, .skip a:active { top: 0; }
+
 /* header */
 .header { overflow: hidden; }
 .header h1 { float: left; padding-top: 24px; padding-right: 30px; }
