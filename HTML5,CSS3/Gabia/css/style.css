@@ -129,6 +129,7 @@
 /* sub page layout */
 #sub-banner { background: url(../img/server-bg1.png) repeat-x top center; }
 #product-table { }
+#select2 { background-color: #1d7abd; }
 
 /* sub-banner */
 .sub-banner { padding: 80px 0; overflow: hidden; }
@@ -176,3 +177,12 @@
 .table-style1 .large { font-size: 28px; line-height: 38px; }
 .table-style1 .small { font-size: 12px; }
 .table-style1 .view { display: inline-block; padding: 5px 45px; color: #fff; background-color: #3090d6; font-size: 16px; }
+
+/* select2 */
+.select2 { overflow: hidden; padding: 70px 0; }
+.select2 h3 { float: left; width: 33.333%;; font-size: 40px; color: #fff;}
+.select2 > div { float: left; width: 25.8333%; background-color: #2886ca; margin-left: 1.5%; padding: 3%; height: 300px; }
+.select2 > div.simg1 {  background: #2886ca url(../img/select-bg1.png) no-repeat 30px 30px; background-size: 90px;  }
+.select2 > div.simg2 {  background: #2886ca url(../img/select-bg2.png) no-repeat 30px 30px; background-size: 90px; }
+.select2 > div h4 { font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px; } 
+.select2 > div p { font-size: 15px; color: #fff; }
