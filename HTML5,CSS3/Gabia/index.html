@@ -10,6 +10,8 @@
     <!-- style -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
 
     <!-- font -->
     <link rel="stylesheet" href="css/font-awesome.css">
@@ -50,12 +52,34 @@
         <!-- //header -->
         <main>
             <section id="banner">
-                <div class="container">
-                    <div class="banner">
-                        <h2>인기 도메인으로<br>자신감 UP!</h2>
-                        <p>사업에 날개를 달아줄 인기 도메인을<br>지금 특별한 가격에 만나보세요.</p>
-                        <em>COM, NET, KR 도메인 13,500원</em>
-                        <a href="#" class="view">자세히 보기</a>
+                <div class="banner-img1">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>인기 도메인으로<br>자신감 UP!</h2>
+                            <p>사업에 날개를 달아줄 인기 도메인을<br>지금 특별한 가격에 만나보세요.</p>
+                            <em>COM, NET, KR 도메인 13,500원</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img2">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>인기 도메인으로<br>자신감 UP!</h2>
+                            <p>사업에 날개를 달아줄 인기 도메인을<br>지금 특별한 가격에 만나보세요.</p>
+                            <em>COM, NET, KR 도메인 13,500원</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-img3">
+                    <div class="container">
+                        <div class="banner">
+                            <h2>인기 도메인으로<br>자신감 UP!</h2>
+                            <p>사업에 날개를 달아줄 인기 도메인을<br>지금 특별한 가격에 만나보세요.</p>
+                            <em>COM, NET, KR 도메인 13,500원</em>
+                            <a href="#" class="view">자세히 보기</a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -118,7 +142,7 @@
                         <div class="simg3">
                             <h4>23/365 서버관리</h4>
                             <p>전문 엔지니어가<br>365일 24시간 IDC에 상주하며<br>이슈에 실시간 대응합니다.</p>
-                        </div>ㅇㅇㅇㅇ
+                        </div>
                     </div>
                 </div>
             </section>
@@ -355,6 +379,19 @@
         <!-- //footer -->
     </div>
     <!-- //wrap-->
+
+    <!-- script -->
+    <script src="js/jquery.min_1.12.4.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+            $(document).ready(function(){
+                $('#banner').slick({
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                    dots: true,
+                });
+            });
+        </script>
 </body>
 
 </html>

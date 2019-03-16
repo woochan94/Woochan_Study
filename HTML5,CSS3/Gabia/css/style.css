@@ -1,6 +1,6 @@
 #wrap { }
 #header { height: 89px; border-bottom: 1px solid #efefef; }
-#banner { height: 550px; background: url(../img/banner-bg3.jpg) no-repeat center top; border-bottom: 1px solid #efefef; }
+#banner { border-bottom: 1px solid #efefef; }
 #sbanner { }
 #select { background-color: #1d7abd; }
 #infor { }
@@ -38,6 +38,9 @@
 .banner em { font-size: 18px; color: #f66b05; display: block; }
 .banner .view { display: inline-block; font-size: 16px; margin-top: 50px; border: 1px solid #333; padding: 12px 42px; background-color: #fff; transition: all .3s ease;}
 .banner .view:hover { background-color: #000; color: #fff;}
+.banner-img1 { background: url(../img/banner-bg3.jpg) no-repeat center top; }
+.banner-img2 { background: url(../img/banner-bg3.jpg) no-repeat center top; }
+.banner-img3 { background: url(../img/banner-bg3.jpg) no-repeat center top; }
 
 /* sbanner */
 .sbanner { overflow: hidden; padding: 70px 0;  }
