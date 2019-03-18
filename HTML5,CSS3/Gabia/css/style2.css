@@ -1,0 +1,64 @@
+/* layout */
+#header { height: 89px; border-bottom: 1px solid #efefef; }
+#banner { }
+#search { }
+#sbanner { }
+#select { }
+#infor { }
+#ad { } 
+#blog { }
+#site { }
+#footer { }
+
+/* container */
+.container { width: 1180px; height: inherit;  margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
+
+/* skip */
+.skip { position: relative; }
+.skip a { position: absolute; left: 0; top: -50px; width: 140px; border: 1px solid #444; background-color: #333; color: #fff; text-align: center; padding: 10px 0; }
+.skip a:focus, .skip a:active { top: 0; }
+
+/* header */
+.header { overflow: hidden; }
+.header h1 { float: left; padding-top: 24px; padding-right: 30px; }
+.header .gnb { float: left; }
+.header .gnb li { display: inline; }
+.header .gnb li a { font-size: 18px; padding: 32px 12px; display: inline-block; }
+.header .quick { float: right; }
+.header .quick li { display: inline; position: relative; }
+.header .quick li a { display: inline-block; font-size: 14px; padding: 34px 11px 34px 8px; color: #676767; }
+.header .quick li::before { content: ''; width: 1px; height: 10px; background: #ccc; position: absolute; right: 0; top: 1px; }
+.header .quick li:last-child::before { width: 0; height: 0;}
+.header a:hover { color: #1d7abd; }
+
+/* mGnb */
+.mGnb { display: none; position: absolute; left: 5px; top: 12px; }
+.mGnb .bar-wrap { width: 50px; height: 50px; }
+.mGnb .bar-wrap .bar { position: absolute; left: 10px; width: 30px; height: 3px; background-color: #000;  }
+.mGnb .bar-wrap .bar.one { top: 10px; }
+.mGnb .bar-wrap .bar.two { top: 17px; }
+.mGnb .bar-wrap .bar.three { top: 24px; }
+
+/* search */
+.search { display: none; position: absolute; right: 5px; top: 15px; width: 50px; height: 40px; text-align: center; line-height: 40px; }
+.search i { font-size: 20px; }
+
+
+
+/* mediaquery */
+@media (max-width : 1200px ) {
+    #header { height: 60px; }
+
+    .container { width: 100%; }
+    .row { padding: 0 15px; }
+
+    /* header */
+    .header h1 { float: none; text-align: center; padding-top: 16px; padding-right: 0px; }
+    .header h1 img { width: 80px; }
+    .header .gnb { display: none; }
+    .header .quick { display: none; }
+    /* mGnb */
+    .mGnb { display: block; }
+    /* search */
+    .search { display: block; }
+}
