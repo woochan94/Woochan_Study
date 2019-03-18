@@ -1,7 +1,7 @@
 /* layout */
 #header { height: 89px; border-bottom: 1px solid #efefef; }
 #banner { }
-#search { }
+#search-domain { height: 110px; background-color: #fbfaf8; border-top: 1px solid #efefef; }
 #sbanner { }
 #select { }
 #infor { }
@@ -54,10 +54,17 @@
 .banner-img2 { background: url(../img/banner-bg3.jpg) no-repeat center top; }
 .banner-img3 { background: url(../img/banner-bg3.jpg) no-repeat center top; }
 
+/* search */
+.search-domain { padding: 25px 0; }
+.search-domain span { font-size: 36px; padding-right: 15px; }
+.search-domain .input-text { width: 900px; font-size: 24px; line-height: 55px; border: 1px solid #ccc; padding-left: 20px; }
+.search-domain a { background-color: #3090d6; width: 130px; height: 60px; color: #fff; font-size: 20px; display: inline-block; text-align: center; line-height: 60px; margin-left: 15px; }
+
 
 /* mediaquery */
 @media (max-width : 1200px ) {
     #header { height: 60px; }
+    #search-domain { display: none; }
 
     .container { width: 100%; }
     .row { padding: 0 15px; }
