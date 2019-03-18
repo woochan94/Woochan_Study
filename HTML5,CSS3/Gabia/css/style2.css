@@ -3,7 +3,7 @@
 #banner { }
 #search-domain { height: 110px; background-color: #fbfaf8; border-top: 1px solid #efefef; }
 #sbanner { }
-#select { }
+#select { background-color: #1d7abd; }
 #infor { }
 #ad { } 
 #blog { }
@@ -68,6 +68,17 @@
 .sbanner div h4:hover { text-decoration: underline; }
 .sbanner div p { font-size: 16px; color: #676767; }
 
+/* select */
+.select { overflow: hidden; padding: 70px 0; }
+.select h3 { float: left; font-size: 40px; width: 25%; color: #fff;}
+.select > div { float: left; width: 17.5%; background-color: #2886ca; margin-left: 1.5%; padding: 3%; height: 300px;}
+.select > div.simg1 { background: #2886ca url(../img/select-bg1.png) no-repeat 30px 210px; background-size: 90px; }
+.select > div.simg2 { background: #2886ca url(../img/select-bg2.png) no-repeat 30px 220px; background-size: 90px; }
+.select > div.simg3 { background: #2886ca url(../img/select-bg3.png) no-repeat 30px 230px; background-size: 90px; }
+.select > div h4 { font-size: 18px; color: #fff; padding-bottom: 20px; } 
+.select > div p { font-size: 15px; color: #fff; }
+
+
 
 
 
@@ -93,6 +104,11 @@
 @media (max-width : 1024px ) {
     .sbanner { padding: 20px 0; }
     .sbanner div { width: 50%; margin-bottom: 30px; text-align: center; }
+    .select h3 { width: 38%; margin: 1%; padding: 5%; }
+    .select > div { width: 38%; margin: 1%; padding: 5%; }
+    .select > div.simg1 { background: #2886ca url(../img/select-bg1.png) no-repeat 12% 80%; background-size: 80px; }
+    .select > div.simg2 { background: #2886ca url(../img/select-bg2.png) no-repeat 12% 80%; background-size: 90px; }
+    .select > div.simg3 { background: #2886ca url(../img/select-bg3.png) no-repeat 12% 80%; background-size: 90px; }
 }
 
 @media (max-width : 768px ) {
@@ -106,9 +122,19 @@
 @media (max-width : 600px) {
     .sbanner div h4 { font-size: 18px; }
     .sbanner div p { font-size: 14px; }
+    .select { padding: 20px 0; }
+    .select h3 { font-size: 22px; max-height: 150px; }
+    .select div { height: auto; max-height: 150px; }
+    .select div br { display: none; }
+    .select > div.simg1 { background: none; background-color: #2886ca; }
+    .select > div.simg2 { background: none; background-color: #2886ca; }
+    .select > div.simg3 { background: none; background-color: #2886ca; }
 }
 
 @media (max-width : 400px) {
     .sbanner div { width: 100%; }
     .sbanner div p br { display: none; }
+    .select h3 br { display: none; font-size: 20px; }
+    .select h3 { width: 100%; padding-left: 0; }
+    .select div { width: 100%; box-sizing: border-box; }
 }
