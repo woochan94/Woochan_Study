@@ -9,7 +9,7 @@
 #ad::before { content: ''; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); position: absolute; top: 0; left: 0; }
 #blog { }
 #site { }
-#footer { }
+#footer { border-top: 1px solid #efefef; }
 
 /* container */
 .container { width: 1180px; height: inherit;  margin: 0 auto; } /* 블록요소를 가운데 정렬하기 위해서는 { margin: 0 auto }  */
@@ -122,7 +122,25 @@
 .blog .notice-wrap .nw-right li { padding: 12px 0; font-size: 16px; color: #666; }
 .blog .notice-wrap .nw-right li span { background-color: #666; color: #fff; padding: 5px 10px; margin-right: 20px; }
 
-
+/* footer */
+.footer { padding: 50px 0; position: relative; }
+.footer .policy { padding-bottom: 30px; }
+.footer .policy li { display: inline-block; padding-right: 20px; padding-left: 10px; position: relative; }
+.footer .policy li::before { content: ''; width: 1px; height: 18px; background-color: #ccc; position: absolute; right: 0; top: 3px;}
+.footer .policy li:first-child { padding-left: 0;}
+.footer .policy li:last-child::before { width: 0; height: 0;}
+.footer .policy li a { font-size: 16px; }
+.footer .policy li:last-child a { color: #1d7adb; }
+.footer .address { color: #666; font-size: 14px;}
+.footer .address li { padding-bottom: 5px; }
+.footer .address span { padding-right: 20px; }
+.footer .address p { padding: 20px 0; }
+.footer .icon { overflow: hidden; }
+.footer .icon li { float: left; padding-right: 20px; }
+.footer .icon li:last-child { padding-top: 10px;}
+.footer .family { position: absolute; right: 0; top: 50px;}
+.footer .family select { background-color: #fff; width: 145px; height: 44px; padding-left: 5px; margin-right: 5px; }
+.footer .family button { padding: 10px 15px 11px; border: 1px solid #cfd5da; font-size: 14px; color: #707070;  }
 
 
 
@@ -154,6 +172,10 @@
 
     .blog .notice-wrap .nw-left { float: none; width: 100%; margin-bottom: 5%; }
     .blog .notice-wrap .nw-right { float: none; width: 100%; height: auto; }
+
+    .footer {text-align: center;}
+	.footer .family {display: none;}
+	.footer .icon {display: none;}
 }
 
 @media (max-width : 1024px ) {
@@ -196,6 +218,10 @@
     .blog .notice-wrap .nw-left li { padding: 13px 10px; }
     .blog .notice-wrap .nw-right h3 { font-size: 24px; margin-bottom: 10px;  }
     .blog .notice-wrap .nw-right ul { padding: 13px 10px; }
+
+    .footer .family { top: 45px; }
+    .footer .family select { height: 30px; }
+    .footer .family button { padding: 4.5px; }
 }
 
 @media (max-width : 600px) {
@@ -209,6 +235,8 @@
     .select > div.simg2 { background: none; background-color: #2886ca; }
     .select > div.simg3 { background: none; background-color: #2886ca; }
     .blog .blog-wrap > div { width: 100%; margin-right: 0; margin-bottom: 5%; }
+
+    .footer .address span {display: block;}
 }
 
 @media (max-width : 400px) {
