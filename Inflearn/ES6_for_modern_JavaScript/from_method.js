@@ -13,4 +13,5 @@ function addMark() {
     console.log(newData); 
 }
 
-addMark(1,2,3,4,5);
+addMark(1,2,3,4,5); 
+
