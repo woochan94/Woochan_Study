@@ -8,13 +8,13 @@
 ![](../img/share1-1.png)
 
 1-2) 속성에서 <b>공유탭</b> - <b>고급 공유</b> 클릭 
-<img src="../img/share1-2.png" width="500px" height="500px">
+<img src="../img/share1-2.png" width="100%" height="500px">
 
 1-3) 고급 공유에서 <b>권한</b> 클릭 
-<img src="../img/share1-3.png" width="500px" height="500px">
+<img src="../img/share1-3.png" width="100%" height="500px">
 
 1-4) <b>모든 권한을 허용</b>한 후에 적용 - 확인
-<img src="../img/share1-4.png" width="500px" height="500px">
+<img src="../img/share1-4.png" width="100%" height="500px">
 
 <br><br>
 
