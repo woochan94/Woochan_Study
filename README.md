@@ -11,6 +11,7 @@
 ## 2. 자료구조 
 - [Array / List]
 - [Stack / Queue]
+- [Tree]
 
 ## 3. Front-End 
 ### Web 
@@ -35,6 +36,7 @@
 
 [Array / List]:./Data_Structure/Array_List.md
 [Stack / Queue]:./Data_Structure/Stack_Queue.md
+[Tree]:./Data_Structure/Tree.md
 
 
 [브라우저 렌더링]:./FrontEnd/Web/Browser_Rendering.md
