@@ -16,7 +16,7 @@
 <br>
 
 ## 3. HTML 문서의 DOM 트리 구조 
-<img src = ../img/pic_htmltree.gif width="100%">
+<img src = ../../img/pic_htmltree.gif width="100%">
 * 트리(tree)<br>
   하나의 root node에서 시작하여 나무가지처럼 아래로 퍼져나가는 형태의 자료구조.
 
