@@ -42,7 +42,9 @@
 
 ## 6. React Native
 
--   [React Native 소개 1]
+-   [React Native 소개]
+-   [React Native Performance]
+-   [React Native CLI / Expo CLI]
 
 [객체 지향 프로그래밍]: ./Dev/OOP/객체지향프로그래밍.md
 [javascript 객체 지향 프로그래밍]: ./Dev/OOP/JS_객체지향프로그래밍.md
@@ -59,4 +61,6 @@
 [call by value / call by reference]: ./FrontEnd/JavaScript/Call-by-value_Call-by-reference.md
 [php vs node.js]: ./BackEnd/PHP_NodeJS.md
 [3-way-handshaking]: ./Network/3-way-handshake.md
-[react native 소개 1]: ./React-Native/1-1.ReactNative란.md
+[react native 소개]: ./React-Native/1.ReactNative란.md
+[react native performance]: ./React-Native/2.ReactNative_Performance.md
+[react native cli / expo cli]: ./React-Native/3.ReactNative_CLI_vs_Expo_CLI.md
